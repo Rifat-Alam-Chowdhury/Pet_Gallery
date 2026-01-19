@@ -13,6 +13,7 @@
     <?php include "Hero/Hero.php"; ?>
     <?php include "RecentlyAdded/recentlyaddedpets.php"; ?>
     <?php include "WhyFromUs/whyfromus.php"; ?>
+    <?php include "footer/Footer.php"; ?>
     
 </body>
 </html>
