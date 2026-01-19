@@ -1,0 +1,64 @@
+.admin-footer {
+  background-color: #eef7ff;
+  color: #000000;
+  padding: 30px 0;
+  margin-top: 50px;
+  border-top: 1px solid #3498db81;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section h4 {
+  margin: 0;
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-section p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3498db;
+}
+
+.footer-status {
+  text-align: right;
+}
+
+.footer-status p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #000000;
+}
+
+.system-time {
+  font-style: italic;
+  margin-top: 5px !important;
+}
