@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --transition: all 0.4s ease-in-out;
+}
+
+.login-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.toggle-container {
+  display: flex;
+  background: #f1f5f9;
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.toggle-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  background: transparent;
+  color: #64748b;
+  transition: 0.3s;
+}
+
+.toggle-btn.active {
+  background: white;
+  color: #6366f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.toggle-btn.active1 {
+  background: white;
+  color: #f97316;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Left Side: Image --- */
+.image-section.member {
+  flex: 1.2;
+  background-color: #eef2ff;
+  background-image: url("../images/undraw_dog-walking_w27q.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  transition: var(--transition);
+}
+.image-section.shelter {
+  flex: 1.2;
+  background-color: #eef2ff;
+  background-image: url("../images/Veterinary-cuate.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  transition: var(--transition);
+}
+
+/* --- Right Side: Form --- */
+.form-section {
+  flex: 1;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 550px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+p {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+/* Grid for Form */
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+.full-width {
+  grid-column: span 2;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #475569;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.submit-btn.Member {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.4s ease-in-out;
+}
+.submit-btn.Shelter-member {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #f97316;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.AlreadyLink {
+  text-align: center;
+  text-decoration: none;
+}
+
+.AlreadyLink p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+}
+
+.AlreadyLink {
+  margin-top: 2px;
+  text-align: center;
+}
